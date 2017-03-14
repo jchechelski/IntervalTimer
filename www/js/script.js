@@ -11,6 +11,7 @@
 //}
 
 function onDeviceReady() {
+    navigator.notification.alert('dziala');
 	navigator.notification.beep(1);
 }
 
