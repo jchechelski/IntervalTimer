@@ -9,6 +9,53 @@
 		<script src="js/script.js"></script>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
-	<body>		
+	<body>
+        <!--        Main page     -->
+        <div data-role="page" id="start" data-theme="b">
+            <div data-role="header">
+                <h1>Interval Timer</h1>
+            </div>
+            <div class="ui-grid-solo border time">
+                    
+                </div>
+
+            <div data-role="footer" data-position="fixed" class="">
+                <div class="ui-grid-a">
+                  <div class="ui-block-a full-width lh50" id="pause">PAUSE</div>
+                  <div class="ui-block-b full-width lh50" id="play">PLAY</div>
+                </div>
+                <div class="ui-grid-solo">
+                  <div class="ui-block-a full-width border" id="restart">restart</div>
+                </div>
+               <div data-role="navbar">
+                   <ul>
+                       <li>
+                           <a href="#settings" class="ui-icon-grid ui-btn-icon-left">Settings</a>
+                       </li>
+                   </ul>
+               </div>
+            </div>
+        </div>
+        
+        <!--     Settings     -->
+        <div data-role="page" id="settings" data-theme="b">
+            <div data-role="header">
+                <h1>Settings</h1>
+            </div>
+            <div data-role="main" class="ui-content">
+                <p>tu beda ustawienia</p>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                   <ul>
+                       <li>
+                           <a href="#start" class="ui-icon-clock ui-btn-icon-left">Back to Timer</a>
+                       </li>
+                   </ul>
+               </div>
+            </div>
+            </div>
+        </div>
+        
 	</body>
 </html>
