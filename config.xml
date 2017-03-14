@@ -4,8 +4,8 @@
 		id          = "myfirstapp"
         version     = "1.0.0" >
 
-    <name>Jarek App 001</name>
-    <description>Phonegap app</description>
+    <name>Interval Timer 0.1</name>
+    <description>Interval timer for training</description>
     <author href="http://mypersonalwebsite.com" email="chechelskiwsei@gmail.com">
 		Jarek Chechelski
 	</author>
